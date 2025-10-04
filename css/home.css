@@ -106,7 +106,7 @@ font-size: 0.8em;
     font-size: 1em;
 }   
 
-.product-sec-new .shoping-card{
+.shoping-card{
     text-align: center;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
     margin: 10px 0px;
@@ -310,3 +310,71 @@ font-size: 0.8em;
     direction: ltr;
 }                                
 
+.dragble-list .title{
+    padding: 0px 20px;
+    padding-bottom:20px ;
+}
+
+.dragble-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1.5px solid #e74c3c ;
+}
+
+
+                    /* footer */
+
+                    
+footer{
+    background-color: #636e72;
+    font-size: 1em;
+}   
+
+footer .right {
+    padding: 40px;
+}
+
+footer .right .title{
+    padding: 10px 0px;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer .right .des{
+    color: rgba(255, 255, 255, .7);
+    line-height: 1.9em;
+    font-size: 0.8em;
+}
+
+
+footer .left{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+footer .left .title{
+    text-align: center;
+    padding: 10px 20px ;
+}
+
+footer .left .social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+footer .left .social a{
+    color: white;
+    font-size: 1.4em;
+    
+
+}
+
+footer .bottom{
+    background-color: #2d3436;
+    text-align: center;
+    padding:15px ;
+    color: rgba(255, 255, 255, .9);
+}
